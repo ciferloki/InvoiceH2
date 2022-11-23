@@ -6,7 +6,8 @@
 1. Run ***"./mvnw spring-boot:run"***
 1. Open a browser and visit ***localhost:8080/load***
 1. Check the CSV files you would like to load, and click *Submit*
-2. Switch to the *Invoice* or *Balance* tab to view the imported invoices and balance report.
+1. Switch to the *Invoice* or *Balance* tab to view the imported invoices and balance report.
+1. You could also visit ***localhost:8080/h2***  and see how the data is persisted.
 
 ### Project Structure
 * **InvoiceH2Application** - Application starter.
